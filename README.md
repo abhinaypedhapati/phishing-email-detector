@@ -16,20 +16,6 @@ A powerful machine learning-based phishing email detection system using Random F
 - **ML Algorithm:** Random Forest Classifier
 - **Features:** TF-IDF + Handcrafted features
 
-## Installation
 
-```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/phishing_email_detector.git
-cd phishing_email_detector
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python phishing_detector.py
-
-# Run web interface
-python web_app.py
-
-# Open browser at http://localhost:5000
+# Open browser at https://phishing-email-detector-crqt.onrender.com
