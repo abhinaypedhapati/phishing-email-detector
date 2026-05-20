@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 import sys
 import traceback
-import os     
+import os          # ← IMPORTANT: This was missing!
+from flask import Flask, render_template, request, jsonify
+import re
+
 print("Starting application...", file=sys.stderr)
 print("Python version:", sys.version, file=sys.stderr)
 
