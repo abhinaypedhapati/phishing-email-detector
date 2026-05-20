@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 import traceback
-
+import os     
 print("Starting application...", file=sys.stderr)
 print("Python version:", sys.version, file=sys.stderr)
 
